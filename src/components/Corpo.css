@@ -1,5 +1,20 @@
 .container-corpo{
     background-color: blueviolet;
     color: aqua;
+    height: calc(100vh - 60px);
+    padding: 10px;
     
+}
+
+.button{
+    background-color: chartreuse;
+    color: brown;
+    border-radius: 10px;
+}
+
+.container-cards, .lista-cards{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
 }

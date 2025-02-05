@@ -1,0 +1,24 @@
+.container-produto{
+    background-color: rgb(255, 0, 242);
+    color: rgb(0, 0, 0);
+    border: 1px solid #ffff;
+    width: 270px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px  rgb(238, 255, 0);
+}
+
+.img-produto{
+    width: 140px;
+    border-radius: 10px;
+}
+
+.promo{
+    color: rgb(136, 255, 0);
+    font-size: 30px;
+}
